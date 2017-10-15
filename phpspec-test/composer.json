@@ -1,0 +1,18 @@
+{
+    "name": "sayad.azami/phpspec-test",
+    "authors": [
+        {
+            "name": "sayadaazami",
+            "email": "sayadaazami@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpspec/phpspec": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Predmond\\Calculator\\": "src/"
+        }
+    }
+}
