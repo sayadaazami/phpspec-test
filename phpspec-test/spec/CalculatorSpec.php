@@ -12,4 +12,12 @@ class CalculatorSpec extends ObjectBehavior
     {
         $this->shouldHaveType(Calculator::class);
     }
+
+    function it_can_add_two_numbers()
+	{
+		$this->add(2, 3)->shouldReturn(5);
+	    $this->add(10, 0)->shouldReturn(10);
+	    $this->add(0, 0)->shouldReturn(0);
+	    $this->add(1, -2)->shouldReturn(-1);
+	}
 }
